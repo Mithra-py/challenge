@@ -1,119 +1,190 @@
 * {
-    font-size: 15px;
-  }
+  font-size: 15px;
+}
 
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
+a {
+  text-decoration: none;
+}
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
 
-  a {
-    text-decoration: none;
-  }
+.navbar-logo {
+  font-size: 3rem;
+  color: black;
+}
 
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
+.navbar-links a {
+  font-size: 20px;
+  margin-left: 2rem;
+  color: hsl(240, 64%, 32%);
+}
+
+.navbar-links a:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.main-img {
+  max-width: 800px;
+  display: inline;
+}
+
+button {
+  background-color: tomato;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 1.25rem 1rem 1.25rem;
+  margin: 1rem;
+  margin-left: 0;
+  max-width: 12rem;
+}
+
+button:hover {
+  background-color: rgb(48, 43, 43);
+  position: relative;
+}
+
+.main-left-side-down {
+  display: flex;
+  margin-top: 2rem;
+  gap: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+.main-left {
+  max-width: 800px;
+}
+
+.main-right {
+  background-color: rgb(24, 23, 23);
+  color: white;
+  padding: 1.5rem;
+  height: min-content;
+}
+
+.main-right-text {
+  color: rgb(167, 166, 166);
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: hsl(35, 77%, 62%);
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+h3:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+hr {
+  margin: 2rem 0 2rem 0;
+}
+
+.main-right-side-down {
+  display: grid;
+  align-content: space-between;
+  font-size: 20px;
+  color: rgb(65, 65, 65);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.card {
+  display: flex;
+  gap: 1rem;
+}
+
+.card-img {
+  max-width: 7rem;
+}
+
+.card-number {
+  color: grey;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+}
+
+.card-title:hover {
+  color: tomato;
+}
+
+.card-exp {
+  padding-right: 2rem;
+  font-size: 1.2rem;
+  color: rgb(78, 78, 78);
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    display: grid;
+    justify-content: start;
+    max-width: 1024px;
     margin: auto;
-    margin-bottom: 1.5rem;
+    margin-top: 3rem;
   }
 
-  .navbar-logo {
-    font-size: 3rem;
-    color: black;
-  }
-
-  .navbar-links a {
-    font-size: 20px;
-    margin-left: 2rem;
-    color: hsl(240, 64%, 32%);
-  }
-
-  .navbar-links a:hover {
-    color: hsl(35, 77%, 62%);
+  .card {
+    display: flex;
+    margin-top: 1rem;
   }
 
   .main {
-    max-width: 1200px;
+    max-width: 1024px;
     margin: auto;
-    display: flex;
+    display: grid;
     gap: 1rem;
   }
 
-  .main-img {
-    max-width: 800px;
-    display: inline;
-  }
-
-  button {
-    background-color: tomato;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 1rem 1.25rem 1rem 1.25rem;
-    margin: 1rem;
-    margin-left: 0;
-    max-width: 12rem;
-  }
-
-  button:hover {
-    background-color: rgb(48, 43, 43);
-    position: relative;
-  }
-
-  .main-left-side-down {
-    display: flex;
-    margin-top: 2rem;
-    gap: 4rem;
-  }
-
-  h1 {
-    font-size: 3rem;
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-  }
-
-  .main-left{
- max-width: 800px;
+  .main-right-side-down{
+    margin-right: 0.5rem;
   }
 
   .main-right{
-    background-color: rgb(24, 23, 23);
-    color: white;
-    padding: 1.5rem;
-    height: min-content;
+    max-width: 95%;
+    margin-right: 0.5rem;
   }
 
-  h2{
-    font-size: 2.5rem;
-    color: hsl(35, 77%, 62%);
-    margin: 0;
-    margin-bottom: 1.5rem;
-  }
-
-  h3{
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-
-  h3:hover{
-    color: hsl(35, 77%, 62%);
-  }
-
-  hr{
-    margin: 2rem 0 2rem 0;
-  }
-
-  .main-right-side-down{
+  .main-left-side-down{
     display: grid;
-    align-content: space-between;
-    font-size: 20px;
-    color: rgb(65, 65, 65);
+  }
 }
