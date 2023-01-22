@@ -175,16 +175,23 @@ hr {
     gap: 1rem;
   }
 
-  .main-right-side-down{
+  .main-right-side-down {
     margin-right: 0.5rem;
   }
 
-  .main-right{
+  .main-right {
     max-width: 95%;
     margin-right: 0.5rem;
   }
 
-  .main-left-side-down{
+  .main-left-side-down {
+    display: grid;
+  }
+
+}
+
+@media screen and (max-width: 814px) {
+  .navbar-links {
     display: grid;
   }
 }
