@@ -1,0 +1,35 @@
+.sideBar{
+    display: grid;
+    width: 30%;
+    height: 90%;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.sideBarNumber{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 1rem;
+    height: fit-content;
+    margin-right: 1rem;
+}
+
+.sideBarText{
+    display: flex;
+    height: min-content;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sideBarTitle{
+    margin: 0;
+}
+
+.sideBarTextRight{
+    align-items: center;
+}
+
+.sideBarp{
+    margin: 0;
+}

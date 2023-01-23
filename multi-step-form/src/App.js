@@ -8,10 +8,10 @@ import Finishing from './pages/Finishing';
 
 function App() {
   return (
-    <div>
+    <div className='sideBarAndPages'>
       <SideBar />
       <Routes>
-        <Route path='/' element={<PersonalInfo />} />
+        <Route path='PersonalInfo' element={<PersonalInfo />} />
         <Route path='SelectPlan' element={<SelectPlan/>} />
         <Route path='AddOns' element={<AddOns/>} />
         <Route path='Finishing' element={<Finishing />} />
