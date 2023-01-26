@@ -13,7 +13,7 @@ const SideBar = () => {
     }}>
       <div>
         <div className='sideBarText'>
-          <Link className='sideBarNumber' to="PersonalInfo">1</Link>
+          <div className='sideBarNumber' to="PersonalInfo">1</div>
           <div className='sideBarTextRight'>
             <h3 className='sideBarTitle'>STEP 1</h3>
             <p className='sideBarp'>YOUR INFO</p>
@@ -21,7 +21,7 @@ const SideBar = () => {
         </div>
 
         <div className='sideBarText'>
-          <Link className='sideBarNumber' to="SelectPlan">2</Link>
+          <div className='sideBarNumber' to="SelectPlan">2</div>
           <div className='sideBarTextRight'>
             <h3 className='sideBarTitle'>STEP 2</h3>
             <p className='sideBarp'>SELECT PLAN</p>
@@ -29,7 +29,7 @@ const SideBar = () => {
         </div>
 
         <div className='sideBarText'>
-          <Link className='sideBarNumber' to="AddOns">3</Link>
+          <div className='sideBarNumber' to="AddOns">3</div>
           <div className='sideBarTextRight'>
             <h3 className='sideBarTitle'>STEP 3</h3>
             <p className='sideBarp'>ADD-ONS</p>
@@ -37,7 +37,7 @@ const SideBar = () => {
         </div>
 
         <div className='sideBarText'>
-          <Link className='sideBarNumber' to="Finishing">4</Link>
+          <div className='sideBarNumber' to="Finishing">4</div>
           <div className='sideBarTextRight'>
             <h3 className='sideBarTitle'>STEP 4</h3>
             <p className='sideBarp'>SUMMARY</p>
