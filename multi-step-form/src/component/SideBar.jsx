@@ -21,7 +21,7 @@ const SideBar = () => {
         </div>
 
         <div className='sideBarText'>
-          <div className='sideBarNumber' to="SelectPlan">2</div>
+          <div className='sideBarNumber'>2</div>
           <div className='sideBarTextRight'>
             <h3 className='sideBarTitle'>STEP 2</h3>
             <p className='sideBarp'>SELECT PLAN</p>
